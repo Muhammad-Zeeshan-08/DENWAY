@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+/* .header{
+    max-height: 100vh;
+    height: 20vh;
+} */
+ul{
+    background-color: rgb(132, 42, 42);
+    text-align: center;
+    padding: 1rem;
+    list-style-type: none;
+}
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+ul li a:hover{
+    color: burlywood;
+    font-weight: bolder;
+}
+.nav ul{
+    margin: 0;
+    overflow: hidden;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    padding: 2rem 8rem;
+}
+.nav ul li a:hover{
+    padding: 2rem 7rem;
+}
+hr{
+    background-color: black;
+    padding: .1rem
+}
